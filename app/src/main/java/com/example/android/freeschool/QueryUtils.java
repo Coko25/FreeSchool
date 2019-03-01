@@ -2,6 +2,8 @@ package com.example.android.freeschool;
 
 import android.util.Log;
 
+import com.example.android.freeschool.pojo.Course;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -63,8 +65,8 @@ public final class QueryUtils {
                 String name = currentCourse.getString("name");
 
 
-                Course course = new Course(name);
-                courses.add(course);
+//                Course course = new Course(name);
+//                courses.add(course);
             }
 
         } catch (JSONException e) {

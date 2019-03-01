@@ -3,4 +3,5 @@
     <string name="numbers_and_numeration">Numbers and numeration</string>
     <string name="contentDescription">teamlogo</string>
     <string name="maths">Maths</string>
+    <string name="title_activity_section">SectionActivity</string>
 </resources>
